@@ -31,4 +31,5 @@ dofile("base/prototypes/recipe/furnace-recipe.lua")
 dofile("base/prototypes/recipe/module.lua")
 
 -- TODO: possibly pretty-print the json, with indenting and newlines
+data.extend = null
 print (json.encode( data ))
